@@ -7,7 +7,7 @@ echo 'volume).'
 set -x
 mvn jar:jar install:install help:evaluate -Dexpression=project.name
 set +x
-#123
+#1234
 
 echo 'The following complex command extracts the value of the <name/> element'
 echo 'within <project/> of your Java/Maven project''s "pom.xml" file.'
